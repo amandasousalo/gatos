@@ -1,0 +1,49 @@
+body{
+    margin: 0%
+}
+h1{
+
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+
+}
+header img{
+    width: 6vw; 
+
+}
+.menu a{
+    text-decoration:none;
+    color: gray;
+    font-size: 12pt;
+    margin-left: 15px;
+}
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h2, .text p{
+    padding: 10px;
+    margin: 0px 10px 8px 10px; /* top rigth bottom left*/
+    color: rgb(90, 90, 153);
+}
+  
+.text p{
+    font-family: initial;
+
+}
+receita{
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
